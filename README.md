@@ -1,5 +1,18 @@
-Setup (Local): npm install, set .env with DATABASE_URL=postgres://postgres:postgres@localhost:5432/eveenty_task, JWT_SECRET=abcdefandrew461970, STRIPE_SECRET_KEY=..., run npm run migrate, then npm start.
-Setup (Docker): Navigate to project folder, run docker-compose up --build, test at http://localhost:3000/auth/signup.
+Setup (Local): 
+npm install
+set .env with
+PORT=3000
+DATABASE_URL=postgres://postgres:postgres@localhost:5432/eveenty_task
+JWT_SECRET=....
+STRIPE_SECRET_KEY=....
+
+run npm run migrate, then npm start.
+
+Setup (Docker): 
+Navigate to project folder
+run docker-compose up --build
+test at http://localhost:3000/auth/signup.
+
 Run Instructions: Local: npm start, Docker: docker-compose up.
 
 
